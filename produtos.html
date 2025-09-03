@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Produtos - KUKUTA AGRI</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="https://i.imgur.com/your_logo_placeholder.png" alt="KUKUTA AGRI Logo" style="height: 50px;">
+                </a>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="produtos.html" class="active">Nossos Produtos</a></li>
+                    <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                    <li><a href="noticias.html">Blog</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="produtos.html" class="btn btn-green btn-header">Comprar Online</a>
+                </div>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Início</a> / <span>Nossos Produtos</span>
+                </div>
+                <h1>Explore a Nossa Colheita</h1>
+                <p>Descubra a nossa seleção de produtos orgânicos, frescos e cultivados com paixão.</p>
+            </div>
+        </section>
+
+        <section class="section-light" id="filtros">
+            <div class="container">
+                <div class="search-filter-bar">
+                    <div class="search-box">
+                        <input type="text" id="produto-search" placeholder="Pesquisar produtos...">
+                        <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="filter-controls">
+                        <select id="categoria-filter">
+                            <option value="">Todas as Categorias</option>
+                            <option value="graos">Grãos e Cereais</option>
+                            <option value="hortalicas">Hortaliças</option>
+                            <option value="frutas">Frutas</option>
+                            <option value="tuberculos">Tubérculos</option>
+                        </select>
+                        <select id="sazonalidade-filter">
+                            <option value="">Sazonalidade</option>
+                            <option value="ano-inteiro">Ano Inteiro</option>
+                            <option value="epoca-chuvas">Época das Chuvas</option>
+                            <option value="epoca-seca">Época Seca</option>
+                        </select>
+                    </div>
+                     <div class="sort-controls">
+                        <select id="sort-select">
+                            <option value="populares">Ordenar por: Mais Populares</option>
+                            <option value="nome-asc">Nome (A-Z)</option>
+                            <option value="nome-desc">Nome (Z-A)</option>
+                            <option value="preco-asc">Preço (Baixo a Alto)</option>
+                            <option value="preco-desc">Preço (Alto a Baixo)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="produtos-lista">
+            <div class="container">
+                <div class="produtos-grid" id="produtos-container">
+                    
+                    <div class="product-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1598112956293-c9582129546b?q=80&w=2070&auto=format&fit=crop" alt="Feijão Manteiga">
+                        <div class="content">
+                            <div class="header">
+                                <h3>Feijão Manteiga</h3>
+                                <span class="tag green">Grãos</span>
+                            </div>
+                            <p class="description">Textura cremosa e sabor rico, ideal para pratos tradicionais moçambicanos.</p>
+                             <p class="price">150 MT / kg</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Origem: Manica</p>
+                            <div class="product-actions">
+                                <a href="#" class="btn btn-green btn-sm">Adicionar ao Carrinho</a>
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1587351177653-a52674a275ot?q=80&w=1974&auto=format&fit=crop" alt="Tomates Frescos">
+                        <div class="content">
+                            <div class="header">
+                                <h3>Tomate Cereja</h3>
+                                <span class="tag brown">Hortaliças</span>
+                            </div>
+                            <p class="description">Doces e suculentos, perfeitos para saladas, molhos ou como um snack saudável.</p>
+                            <p class="price">90 MT / 250g</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Origem: Maputo</p>
+                             <div class="product-actions">
+                                <a href="#" class="btn btn-green btn-sm">Adicionar ao Carrinho</a>
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                         <img src="https://images.unsplash.com/photo-1627423584379-b8838a3a78a6?q=80&w=1964&auto=format&fit=crop" alt="Milho">
+                        <div class="content">
+                            <div class="header">
+                                <h3>Milho Branco</h3>
+                                 <span class="tag green">Cereais</span>
+                            </div>
+                            <p class="description">A base da nossa alimentação, 100% orgânico para uma xima nutritiva e saborosa.</p>
+                            <p class="price">80 MT / kg</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Origem: Zambézia</p>
+                             <div class="product-actions">
+                                <a href="#" class="btn btn-green btn-sm">Adicionar ao Carrinho</a>
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1557844352-761f2565b576?q=80&w=1974&auto=format&fit=crop" alt="Alface Crespa">
+                        <div class="content">
+                            <div class="header">
+                                <h3>Alface Crespa</h3>
+                                <span class="tag brown">Hortaliças</span>
+                            </div>
+                            <p class="description">Folhas crocantes e frescas, colhidas diariamente para garantir a máxima qualidade.</p>
+                             <p class="price">75 MT / unidade</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Origem: Maputo</p>
+                             <div class="product-actions">
+                                <a href="#" class="btn btn-green btn-sm">Adicionar ao Carrinho</a>
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="product-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?q=80&w=1974&auto=format&fit=crop" alt="Manga">
+                        <div class="content">
+                            <div class="header">
+                                <h3>Manga Palmer</h3>
+                                <span class="tag brown">Frutas</span>
+                            </div>
+                            <p class="description">Sumarenta e sem fibras, a rainha das frutas tropicais diretamente do produtor.</p>
+                             <p class="price">200 MT / kg</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Origem: Nampula</p>
+                             <div class="product-actions">
+                                <a href="#" class="btn btn-green btn-sm">Adicionar ao Carrinho</a>
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="product-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba657?q=80&w=1974&auto=format&fit=crop" alt="Batata Reno">
+                        <div class="content">
+                            <div class="header">
+                                <h3>Batata Reno</h3>
+                                 <span class="tag green">Tubérculos</span>
+                            </div>
+                            <p class="description">Versátil e saborosa, perfeita para cozer, fritar ou assar. Um clássico em qualquer cozinha.</p>
+                            <p class="price">95 MT / kg</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Origem: Tete</p>
+                             <div class="product-actions">
+                                <a href="#" class="btn btn-green btn-sm">Adicionar ao Carrinho</a>
+                                <a href="#" class="btn btn-outline btn-sm">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination-wrapper">
+                    <div class="pagination">
+                        <button class="page-btn disabled"><i class="fas fa-chevron-left"></i></button>
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <span class="page-dots">...</span>
+                        <button class="page-btn">8</button>
+                        <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="logo-footer">KUKUTA AGRI</h3>
+                    <p>Cultivando o futuro de Moçambique com produtos orgânicos de alta qualidade. The best for your home.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Navegação</h3>
+                    <ul class="footer-links">
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="produtos.html">Nossos Produtos</a></li>
+                        <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                        <li><a href="noticias.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Suporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="contacto.html">Contactos</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Política de Entregas</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</p>
+                        <p><i class="fas fa-phone"></i> +258 84 000 0000</p>
+                        <p><i class="fas fa-envelope"></i> vendas@kukutaagri.co.mz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KUKUTA AGRI. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
