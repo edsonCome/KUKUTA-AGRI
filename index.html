@@ -15,7 +15,7 @@
         <div class="container">
             <nav class="navbar">
                 <a href="index.html" class="logo">
-                    <img src="https://i.imgur.com/your_logo_placeholder.png" alt="KUKUTA AGRI Logo" style="height: 50px;">
+                    <img src="https://i.imgur.com/V8p3y3k.png" alt="KUKUTA AGRI Logo" style="height: 50px;">
                 </a>
                 
                 <ul class="nav-links" id="nav-links">
@@ -28,7 +28,7 @@
                 </ul>
                 
                 <div class="nav-actions">
-                    <a href="produtos.html" class="btn btn-green btn-header">Comprar Online</a>
+                    <a href="contacto.html" class="btn btn-green btn-header">Saber mais</a>
                 </div>
 
                 <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
@@ -40,21 +40,87 @@
 
     <main>
         <section id="hero">
-    <div class="hero-carousel-container">
-        <div class="hero-carousel-slide active" style="background-image: url('assets/img/hero-bg-1.jpg');"></div>
-        <div class="hero-carousel-slide" style="background-image: url('assets/img/hero-bg-2.jpg');"></div>
-        <div class="hero-carousel-slide" style="background-image: url('assets/img/hero-bg-3.jpg');"></div>
-        </div>
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-        <h1>Sabor que vem da terra, <span class="highlight">direto para a sua casa.</span></h1>
-        <p>Descubra a frescura e a qualidade dos produtos orgânicos da KUKUTA AGRI. Cultivados com paixão em Moçambique para alimentar a sua família.</p>
-        <div class="hero-actions">
-            <a href="produtos.html" class="btn btn-primary">Ver Produtos</a>
-            <a href="sobre-nos.html" class="btn btn-secondary">Conheça a Nossa História</a>
-        </div>
-    </div>
-</section>
+            <div class="hero-carousel-container">
+                <!-- Slide 1 - Agricultura Sustentável -->
+                <div class="hero-carousel-slide active" 
+                     style="background-image: url('https://images.pexels.com/photos/14242188/pexels-photo-14242188.jpeg')"
+                     data-title="Sabor que vem da terra"
+                     data-subtitle="direto para a sua casa."
+                     data-description="Descubra a frescura e a qualidade dos produtos orgânicos da KUKUTA AGRI. Cultivados com paixão em Moçambique para alimentar a sua família.">
+                </div>
+                
+                <!-- Slide 2 - Produtos Frescos -->
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2074&auto=format&fit=crop')"
+                     data-title="Produtos 100% Orgânicos"
+                     data-subtitle="cultivados localmente."
+                     data-description="Apoiamos agricultores moçambicanos e oferecemos produtos livres de pesticidas, ricos em nutrientes e sabor autêntico.">
+                </div>
+                
+                <!-- Slide 3 - Agricultura Familiar -->
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=2069&auto=format&fit=crop')"
+                     data-title="Apoiando Comunidades"
+                     data-subtitle="rurais moçambicanas."
+                     data-description="Cada compra fortalece famílias agricultoras e promove práticas sustentáveis que preservam nossa terra para as próximas gerações.">
+                </div>
+                
+                <!-- Slide 4 - Entrega -->
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?q=80&w=2125&auto=format&fit=crop')"
+                     data-title="Entrega em Todo País"
+                     data-subtitle="frescura garantida."
+                     data-description="Da nossa fazenda para a sua mesa. Entregamos produtos frescos em todas as 11 províncias de Moçambique com qualidade garantida.">
+                </div>
+                
+                <!-- Slide 5 - Sustentabilidade -->
+                <div class="hero-carousel-slide" 
+                     style="background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070&auto=format&fit=crop')"
+                     data-title="Agricultura Sustentável"
+                     data-subtitle="para um futuro melhor."
+                     data-description="Utilizamos energia solar, conservamos água e praticamos agricultura regenerativa. Cuidamos do presente pensando no futuro.">
+                </div>
+            </div>
+            
+            <div class="hero-overlay"></div>
+            
+            <div class="container hero-content">
+                <h1 id="hero-title">Sabor que vem da terra, <span class="highlight" id="hero-subtitle">direto para a sua casa.</span></h1>
+                <p id="hero-description">Descubra a frescura e a qualidade dos produtos orgânicos da KUKUTA AGRI. Cultivados com paixão em Moçambique para alimentar a sua família.</p>
+                <div class="hero-actions">
+                    <a href="produtos.html" class="btn btn-primary">
+                        <i class="fas fa-shopping-cart"></i>
+                        Ver Produtos
+                    </a>
+                    <a href="sobre.html" class="btn btn-secondary">
+                        <i class="fas fa-leaf"></i>
+                        Nossa História
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Navegação -->
+            <button class="carousel-nav carousel-prev" aria-label="Slide anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-nav carousel-next" aria-label="Próximo slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <!-- Indicadores -->
+            <div class="carousel-controls">
+                <span class="carousel-dot active" data-slide="0"></span>
+                <span class="carousel-dot" data-slide="1"></span>
+                <span class="carousel-dot" data-slide="2"></span>
+                <span class="carousel-dot" data-slide="3"></span>
+                <span class="carousel-dot" data-slide="4"></span>
+            </div>
+            
+            <!-- Barra de Progresso -->
+            <div class="carousel-progress">
+                <div class="carousel-progress-bar"></div>
+            </div>
+        </section>
 
         <section class="section section-light" id="diferenciais">
             <div class="container">
