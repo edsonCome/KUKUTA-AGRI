@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - KUKUTA AGRI</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="https://i.imgur.com/V8p3y3k.png" alt="KUKUTA AGRI Logo" style="height: 50px;">
+                </a>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="produtos.html">Nossos Produtos</a></li>
+                    <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                    <li><a href="noticias.html">Blog</a></li>
+                    <li><a href="contacto.html" class="active">Contactos</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="contacto.html" class="btn btn-green btn-header">Saber mais</a>
+                </div>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Início</a> / <span>Contactos</span>
+                </div>
+                <h1>Entre em Contacto Connosco</h1>
+                <p>Estamos aqui para ajudá-lo. Fale connosco sobre produtos, parcerias ou qualquer dúvida.</p>
+            </div>
+        </section>
+
+        <section class="section" id="contact-info">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-details fade-in">
+                        <h2>Como Pode Nos Encontrar</h2>
+                        <p>A equipa KUKUTA AGRI está sempre disponível para responder às suas questões e apoiar o seu interesse em produtos orgânicos de qualidade.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>Endereço Principal</h3>
+                                    <p>Avenida Julius Nyerere, 1234<br>
+                                    Bairro Central, Maputo<br>
+                                    Moçambique</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>Telefones</h3>
+                                    <p><strong>Vendas:</strong> +258 84 000 0000<br>
+                                    <strong>Suporte:</strong> +258 87 000 0000<br>
+                                    <strong>Parcerias:</strong> +258 82 000 0000</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>Emails</h3>
+                                    <p><strong>Geral:</strong> info@kukutaagri.co.mz<br>
+                                    <strong>Vendas:</strong> vendas@kukutaagri.co.mz<br>
+                                    <strong>Parcerias:</strong> parcerias@kukutaagri.co.mz</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>Horário de Funcionamento</h3>
+                                    <p><strong>Segunda - Sexta:</strong> 8:00 - 17:00<br>
+                                    <strong>Sábado:</strong> 8:00 - 12:00<br>
+                                    <strong>Domingo:</strong> Fechado</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-contact">
+                            <h3>Redes Sociais</h3>
+                            <div class="social-links-large">
+                                <a href="#" class="social-link facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="#" class="social-link instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="#" class="social-link whatsapp">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container fade-in">
+                        <div class="form-header">
+                            <h2>Envie-nos uma Mensagem</h2>
+                            <p>Preencha o formulário abaixo e responderemos brevemente.</p>
+                        </div>
+                        
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nome">Nome Completo *</label>
+                                    <input type="text" id="nome" name="nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="tel" id="telefone" name="telefone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="assunto">Assunto *</label>
+                                    <select id="assunto" name="assunto" required>
+                                        <option value="">Selecione um assunto</option>
+                                        <option value="produtos">Informações sobre Produtos</option>
+                                        <option value="encomenda">Fazer Encomenda</option>
+                                        <option value="parceria">Parceria/Fornecimento</option>
+                                        <option value="suporte">Suporte Técnico</option>
+                                        <option value="reclamacao">Reclamação</option>
+                                        <option value="outro">Outro</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem *</label>
+                                <textarea id="mensagem" name="mensagem" rows="6" placeholder="Descreva a sua mensagem ou questão..." required></textarea>
+                            </div>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter">Desejo receber newsletter com produtos e promoções</label>
+                            </div>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="termos" name="termos" required>
+                                <label for="termos">Aceito os <a href="#">termos e condições</a> *</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-green btn-large btn-full">
+                                Enviar Mensagem
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-light" id="map-section">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Visite-nos</h2>
+                    <p>Encontre-nos no coração de Maputo</p>
+                </div>
+                <div class="map-container fade-in">
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>KUKUTA AGRI - Sede Principal</h3>
+                            <p>Avenida Julius Nyerere, 1234<br>Maputo, Moçambique</p>
+                            <a href="https://goo.gl/maps" target="_blank" class="btn btn-brown">Ver no Google Maps</a>
+                        </div>
+                        <!-- Em produção, substituir por um mapa real do Google Maps ou outro serviço -->
+                        <div class="map-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop" alt="Mapa de localização" style="width: 100%; height: 400px; object-fit: cover; border-radius: 12px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="faq-section">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Perguntas Frequentes</h2>
+                    <p>Respostas rápidas para as dúvidas mais comuns</p>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h3>Como posso fazer uma encomenda?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Pode fazer encomendas através do nosso website na secção de produtos, por telefone (+258 84 000 0000) ou enviando um email para vendas@kukutaagri.co.mz. Aceitamos pagamentos por transferência bancária, M-Pesa e dinheiro na entrega.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h3>Fazem entregas em todo o país?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, fazemos entregas em todas as 11 províncias de Moçambique. Os prazos variam entre 1-3 dias para Maputo e arredores, e 3-7 dias para outras províncias, dependendo da localização e disponibilidade de transporte.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h3>Os produtos são realmente 100% orgânicos?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, todos os nossos produtos são certificados orgânicos pela Associação Moçambicana de Agricultura Orgânica. Não utilizamos pesticidas, herbicidas ou fertilizantes químicos em nenhuma fase da produção.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h3>Posso visitar as vossas fazendas?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, organizamos visitas guiadas às nossas fazendas mediante agendamento prévio. Entre em contacto connosco para agendar a sua visita e conhecer de perto os nossos métodos de produção sustentável.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h3>Têm programa de parcerias com pequenos produtores?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, trabalhamos directamente com mais de 50 famílias de pequenos produtores. Oferecemos formação em agricultura orgânica, fornecemos sementes e garantimos preços justos. Entre em contacto se estiver interessado em juntar-se à nossa rede.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="logo-footer">KUKUTA AGRI</h3>
+                    <p>Cultivando o futuro de Moçambique com produtos orgânicos de alta qualidade. The best for your home.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Navegação</h3>
+                    <ul class="footer-links">
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="produtos.html">Nossos Produtos</a></li>
+                        <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                        <li><a href="noticias.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Suporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="contacto.html">Contactos</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Política de Entregas</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</p>
+                        <p><i class="fas fa-phone"></i> +258 84 000 0000</p>
+                        <p><i class="fas fa-envelope"></i> vendas@kukutaagri.co.mz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KUKUTA AGRI. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
